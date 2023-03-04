@@ -1,10 +1,11 @@
 from inventory_report.reports.simple_report import SimpleReport
 from collections import Counter
+from typing import List
 
 
 class CompleteReport(SimpleReport):
     @classmethod
-    def generate(cls, inventory):
+    def generate(cls, inventory: List[dict]) -> str:
         response = super().generate(inventory)
         company = Counter(row['nome_da_empresa'] for row in inventory)
         in_stock = ''
