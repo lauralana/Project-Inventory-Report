@@ -1,8 +1,5 @@
 # Inventory Reports
 
-[Trybe](https://www.betrybe.com/) é uma escola de tecnologia focada na formação de Desenvolvedores Web. Este projeto foi proposto como uma atividade para aprimorar os estudos em Ciência da Computação.
-
-
 ## Sobre :
 
 Este projeto é um gerador de relatórios que recebe como entrada arquivos com dados de um estoque (CSV,JSON,XML) e gera, como saída, um relatório acerca destes dados, tendo uma versão simples e outra completa.
